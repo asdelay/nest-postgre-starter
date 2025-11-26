@@ -25,6 +25,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Copy data from .env.example to your .env file
+
 ## Project setup
 
 ```bash
@@ -34,6 +36,9 @@ $ npm install
 ## Compile and run the project
 
 ```bash
+# run dockerized postgre
+$ docker compose up -d
+
 # development
 $ npm run start
 
